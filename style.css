@@ -5,7 +5,7 @@
                             /*se elimina las margenes predeterminadas de internet*/
                             
                             body {
-                                background-image: url(img/Fondos-para-paginas-web-02.jpg);
+                                background-image: url(./img/Fondos-para-paginas-web-02.jpg);
                                 background-repeat: no-repeat;
                                 background-size: cover;
                                 /*se acomoda la imagen del background*/

@@ -1,0 +1,127 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                            }
+                            /*se elimina las margenes predeterminadas de internet*/
+                            
+                            body {
+                                background-image: url(/img/Fondos-para-paginas-web-02.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                /*se acomoda la imagen del background*/
+                            }
+                            
+                            .contenedor {
+                                margin: auto;
+                                margin-top: 30px;
+                                margin-bottom: 30px;
+                                width: 90%;
+                                max-width: 500px;
+                                align-items: center;
+                                background-color: rgba(174, 50, 50, 0.18);
+                                border-radius: 20px;
+                                padding: 20px;
+                            }
+                            
+                            .row {
+                                margin: 0 auto;
+                                padding: 20px;
+                                max-width: 100%;
+                            }
+                            
+                            #tittle {
+                                width: 100%;
+                                height: 200px;
+                                align-items: center;
+                                align-self: center;
+                                background-color: rgba(174, 50, 50, 0.18);
+                                margin-bottom: 10px;
+                            }
+                            
+                            #tittle h1 {
+                                font-family: 'Amatic SC', cursive;
+                                font-size: 35px;
+                                color: beige;
+                                text-align: center;
+                            }
+                            
+                            #title-pad {
+                                font-family: 'Amatic SC', cursive;
+                                font-size: 35px;
+                                color: rgb(161, 47, 85);
+                                text-align: center;
+                            }
+                            
+                            .form-group {
+                                font-size: 14px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+                            
+                            #tittle img {
+                                align-items: center;
+                                width: 35%;
+                                height: 40%;
+                                margin-top: 10px;
+                                margin-left: 20px;
+                            }
+                            
+                            #survey-description {
+                                align-items: center;
+                                margin: 15px;
+                            }
+                            
+                            #description {
+                                font-size: 16px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+                            
+                            #description span {
+                                font-size: 20px;
+                                font-family: 'Amatic SC', cursive;
+                                color: rgb(180, 43, 88);
+                                font-weight: bolder;
+                            }
+                            
+                            .boton {
+                                display: flex;
+                                margin: auto;
+                                text-align: center;
+                                background-color: palevioletred;
+                                width: 25%;
+                                color: white;
+                                padding: 12px;
+                                font-family: 'Amatic SC', cursive;
+                                outline: none;
+                                font-size: 25px;
+                                border: none;
+                                /*quitar el borde blanco en relieve*/
+                                cursor: pointer;
+                                /*poner cursor manito*/
+                                transition: all 0.5s ease;
+                                /*hacer transicion suave de color al hover*/
+                                border-radius: 10px;
+                                box-shadow: -3px 3px 10px #000000;
+                                padding: 5px;
+                            }
+                            
+                            .boton:hover {
+                                background-color: #A13C72;
+                                width: 50%;
+                            }
+                            
+                            fieldset {
+                                border-color: #CC8686;
+                                padding: 28px;
+                            }
+                            
+                            legend {
+                                text-align: center;
+                                font-family: 'Amatic SC', cursive;
+                                color: #ffff;
+                                font-size: 25px;
+                            }
+                            
+                            body {
+                                justify-content: center;
+                                align-content: center;
+                            }

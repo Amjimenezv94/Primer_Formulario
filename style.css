@@ -107,6 +107,8 @@
                             .boton:hover {
                                 background-color: #A13C72;
                                 width: 50%;
+                                text-align: center;
+                                justify-content: center;
                             }
                             
                             fieldset {
